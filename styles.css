@@ -187,3 +187,15 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--pink);outline-offs
 .foot{background:var(--navy)}
 .foot__inner{padding-block:30px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--on-navy-muted)}
 .band--navy .lead--dark{color:var(--on-navy-muted)}
+
+
+/* made for women */
+.for-her{display:flex;flex-direction:column;gap:40px}
+.audience{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:24px}
+.audience article{background:var(--blush);border:1px solid var(--pink-line);border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px}
+.audience h3{font-family:var(--serif);font-weight:400;font-size:clamp(24px,2.6vw,30px);color:var(--navy)}
+.audience p{color:var(--muted)}
+.her-safety{display:flex;flex-wrap:wrap;gap:10px 28px;font-weight:600;color:var(--navy)}
+.her-safety li{display:inline-flex;align-items:center;gap:8px}
+.her-safety li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--pink)}
+
